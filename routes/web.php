@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RakBukuController;
 use App\Http\Controllers\LoginRegisterController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\TaskPeopleController;
+use App\Models\TaskPeople;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,3 +58,6 @@ Route::controller(LoginRegisterController::class)->group(function() {
 
 // Ajax  Rak Buku
 Route::post('/rak_buku/ajax_store',[RakBukuController::class, 'ajax_store']);
+
+// Posts
+Route::resource('posts', PostController::class);

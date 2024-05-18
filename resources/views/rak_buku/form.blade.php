@@ -60,10 +60,11 @@
         <br>
         <input type="text" class="mail_text" id="keterangan"  name="keterangan" placeholder="keterangan"
             value="{{ $rak->keterangan }}" /><br>
-        <p><input type="text" id="datepicker" name="tanggal" placeholder="tanggal"></p>
-        {{-- <input type="submit" value="{{ $store }}" /> --}}
+        {{-- <p><input type="text" id="datepicker" name="tanggal" placeholder="tanggal"></p> --}}
+        
         <div class="save_bt" id="btn_save">
-            Simpan
+            {{-- Simpan --}}
+            <input type="submit" value="{{ $store }}" />
         </div>
         <div class="send_bt">
             <a href="{{ url('/rak_buku') }}">Kembali</a>

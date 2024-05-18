@@ -81,7 +81,7 @@
     </div>
     <!-- header section end -->
     <!-- banner section start -->
-    <div class="banner_section banner_bg">
+    {{-- <div class="banner_section banner_bg">
         <div class="container-fluid">
             <div id="my_slider" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -127,7 +127,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- banner section end -->
     <!-- about section start -->
     <div class="about_section layout_padding">
