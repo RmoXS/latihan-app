@@ -16,7 +16,12 @@
                     @method('DELETE')
                     <button type="submit">Delete</button>
                 </form>
+                
             </li>
         @endforeach
     </ul>
+    <form action="{{ route('posts.logout') }}" method="POST">
+        @csrf
+        <button type="submit">Logout</button>
+    </form>
 @endsection
